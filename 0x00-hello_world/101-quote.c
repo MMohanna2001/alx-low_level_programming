@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <string.h>
 
 /**
  * main - Entry point
@@ -9,6 +10,7 @@
 int main(void)
 {
 	char *Sen = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-	write(1, Sen, sizeof(Sen) - 1);
+
+	write(1, Sen, strlen(Sen));
 	return (1);
 }
