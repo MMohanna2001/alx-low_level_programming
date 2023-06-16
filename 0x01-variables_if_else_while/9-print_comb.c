@@ -8,15 +8,17 @@
 
 int main(void)
 {
-	char c = '0';
+	int i = 0;
 
 	while (1)
 	{
-		putchar(c);
-		if (c == '9')
+		putchar('0' + i);
+		if (i == 9)
 			break;
 		putchar(',');
 		putchar(' ');
+
+		i++;
 	}
 
 	putchar('\n');
