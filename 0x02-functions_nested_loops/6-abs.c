@@ -1,7 +1,7 @@
 #include "main.h"
 #include <math.h>
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * _abs - absolute of a function 
