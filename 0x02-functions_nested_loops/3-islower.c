@@ -14,7 +14,7 @@
 int _islower(int c)
 {
 	/* Checking c */
-	if (islower(c))I
+	if (islower(c))
 		return (1);
 
 	else
