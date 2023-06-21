@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_last_digit - Check if a number is greater than 0
@@ -11,8 +13,8 @@ int print_last_digit(int num)
 {
 	int x = 0;
 
-	x = num % 10;
+	x = abs( num % 10);
 
 	_putchar('0' + x);
-	return (num % 10);
+	return (abs(num % 10));
 }
