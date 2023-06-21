@@ -5,14 +5,16 @@
 /**
  * _islower - check if c is a lowercase letter.
  *
+ * c The character to be checked
+ *  Returns 1 if 'c' is a lowercase letter, 0 otherwise.
+ *
  * Return: Always 0.
  */
 
 int _islower(int c)
-{	
+{
 	/* Checking c */
-
-	if (islower(c))
+	if (islower(c))I
 		return (1);
 
 	else
