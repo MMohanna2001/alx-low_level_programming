@@ -3,12 +3,10 @@
 #include <ctype.h>
 
 /**
- * _islower - check if c is a lowercase letter.
+ * _islower - Check if a number is greater than 0
+ * @c : The charachter to be checked
  *
- * @c The character to be checked
- *  Returns 1 if 'c' is a lowercase letter, 0 otherwise.
- *
- * Return: Always 0.
+ * Return: 1 if the number is positive. 0 otherwise
  */
 
 int _islower(int c)
