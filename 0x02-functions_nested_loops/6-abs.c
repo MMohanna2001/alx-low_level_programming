@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- * _abs - absolute of a function 
+ * _abs - absolute of a function
  * @c: number tyo be computed
  *
  * Return: absolute of the input number
