@@ -1,5 +1,5 @@
 #include <ctype.h>
-#include <main.h>
+#include "main.h"
 /**
  * _isupper - Check number
  * @c: The number to be checked
