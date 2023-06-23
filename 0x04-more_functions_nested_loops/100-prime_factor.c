@@ -10,7 +10,7 @@
 int main(void)
 {
 	long long num = 612852475143;
-	long long max = 0;
+	int max = 0;
 	int i = 0;
 	int j = 0;
 
@@ -40,7 +40,7 @@ int main(void)
 		}
 	}
 
-	printf("%ll", max);
+	printf("%d", max);
 
 	return (0);
 }
