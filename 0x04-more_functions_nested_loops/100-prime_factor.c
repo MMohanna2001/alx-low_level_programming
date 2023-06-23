@@ -41,4 +41,6 @@ int main(void)
 	}
 
 	printf("%ll", max);
+
+	return (0);
 }
