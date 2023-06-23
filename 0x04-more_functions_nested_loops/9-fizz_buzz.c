@@ -24,9 +24,9 @@ int main(void)
 			printf("%d", i);
 
 		if (i == 100)
-			printf('\n');
+			printf("\n");
 		else
-			printf(' ');
+			printf(" ");
 
 	}
 
