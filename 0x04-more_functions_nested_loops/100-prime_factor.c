@@ -14,13 +14,13 @@ int main(void)
 	int i = 0;
 	int j = 0;
 
-	while (n % 2 == 0)
+	while (num % 2 == 0)
 	{
 		max = 2;
 		num = num / 2;
 	}
 
-	while (n % 3 == 0)
+	while (num % 3 == 0)
 	{
 		max = 3;
 		num = num / 3;
@@ -28,12 +28,12 @@ int main(void)
 
 	for (i = 5; i <= sqrt(num); i += 6)
 	{
-		while (n % i == 0)
+		while (num % i == 0)
 		{
 			max = i;
 			num = num / i;
 		}
-		while (n % (i + 2))
+		while (num % (i + 2))
 		{
 			max = i + 2;
 			num = num / (i + 2);
