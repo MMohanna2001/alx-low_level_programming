@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
- * swap_int - Change
- * @a: Number
- * @b: Number
+ * swap_int - swap
+ * @a: First operand
+ * @b: Second operand
  *
- */
+ * Return: void
+ */
 
 void swap_int(int *a, int *b)
 {
