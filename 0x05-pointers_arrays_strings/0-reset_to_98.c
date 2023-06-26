@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * void reset_to_98 - Change
+ * reset_to_98 - Change
  * @n: Number
  */
 
