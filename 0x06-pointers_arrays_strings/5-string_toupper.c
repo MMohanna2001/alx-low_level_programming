@@ -14,7 +14,7 @@ char *string_toupper(char *c)
 
 	int n = 0;
 
-	while (c[n] != NULL)
+	while (c[n] != '\0')
 	{
 		if (c[n] >= 'a' && c[n] <= 'z')
 			c[n] = c[n] - 32;
