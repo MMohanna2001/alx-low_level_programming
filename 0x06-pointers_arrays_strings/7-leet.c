@@ -13,22 +13,18 @@ char *leet(char *c)
 {
 
 	int n = 0;
-
+	int *chars = {aAeEoOtTlL};
+	int *nums = {4433007711};
+	int i = 0;
 
 	while (c[n] != '\0')
 	{
-		if (c[n] == 'A' || c[n] == 'a')
+		while (chars[i] != '\0')
 		{
-			c[n] = '4';
+			if (c[n] == chars[i])
+				c[n] == nums[i];
 		}
-		else if (c[n] == 'e' || c[n] == 'E')
-			c[n] = '3';
-		else if (c[n] == 'o' || c[n] == 'O')
-			c[n] = '0';
-		else if (c[n] == 't' || c[n] == 'T')
-			c[n] = '7';
-		else if (c[n] == 'l' || c[n] == 'L')
-			c[n] = '1';
+		i = 0;
 		n++;
 	}
 
