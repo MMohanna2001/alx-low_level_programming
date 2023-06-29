@@ -22,7 +22,7 @@ char *leet(char *c)
 		while (chars[i] != '\0')
 		{
 			if (c[n] == chars[i])
-				c[n] == nums[i];
+				c[n] = nums[i];
 		}
 		i = 0;
 		n++;
