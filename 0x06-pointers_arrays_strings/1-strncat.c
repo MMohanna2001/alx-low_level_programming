@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strcat - Connect
+ * _strncat - Connect
  * @dest: First operand
  * @src: Second operand
  * @n: Third
@@ -13,8 +13,7 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	if (strlen(src) > n)
-		src[n - 1] = '\0';
-	strcat(dest, src);
+
+	strncat(dest, src, n);
 	return (dest);
 }
