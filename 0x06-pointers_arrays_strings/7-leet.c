@@ -13,8 +13,8 @@ char *leet(char *c)
 {
 
 	int n = 0;
-	int *chars = "aAeEoOtTlL";
-	int *nums = "4433007711";
+	char *chars = "aAeEoOtTlL";
+	char *nums = "4433007711";
 	int i = 0;
 
 	while (c[n] != '\0')
