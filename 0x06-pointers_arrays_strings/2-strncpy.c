@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _strncopy - Connect
+ * _strncpy - Connect
  * @dest: First operand
  * @src: Second operand
  * @n: Third
