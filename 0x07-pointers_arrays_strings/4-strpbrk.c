@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * _st - see code
+ * _strpbrk - see code
  * @s: arg1
  * @accept: arg2
  *
