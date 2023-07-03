@@ -29,6 +29,8 @@ void print_number(int n)
 	{
 		_putchar('0' + (num % 10));
 		num = num / 10;
+		if (num == 0)
+			break;
 	}
 
 }
