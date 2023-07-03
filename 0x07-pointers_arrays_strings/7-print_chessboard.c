@@ -4,7 +4,7 @@
 
 /**
  * print_chessboard - see code
- * a: arg1
+ * @a: arg1
  *
  * Return: 1 if the number is positive. 0 otherwise
  */
