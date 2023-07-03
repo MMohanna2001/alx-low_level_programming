@@ -3,8 +3,8 @@
 #include <string.h>
 
 /**
- * _puts - Prints
- * @str: The string to be printed
+ * print_rev - Prints
+ * @s: The string to be printed
  */
 
 void print_rev(char *s)
