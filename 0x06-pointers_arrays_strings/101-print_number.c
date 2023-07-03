@@ -25,7 +25,7 @@ void print_number(int n)
 		n = n / 10;
 	}
 
-	while (num <= 0)
+	while (num >= 0)
 	{
 		_putchar('0' + (num % 10));
 		num = num / 10;
