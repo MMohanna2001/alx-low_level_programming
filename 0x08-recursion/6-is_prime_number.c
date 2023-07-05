@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *  _sqrt_recursion - see code
+ *  is_prime_number - see code
  * @n: arg1
  *
  * Return: print
