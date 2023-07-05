@@ -18,18 +18,18 @@ int _sqrt_recursion(int n)
 }
 
 /**
- *  sqrt - see code
+ * _sqrt - see code
  * @n: arg1
  * @a: arg2
  *
  * Return: print
  */
-int sqrt(int n, int a)
+int _sqrt(int n, int a)
 {
 	if (a * a > n)
 		return (-1);
 	if (a * a == n)
 		return (a);
 
-	return(sqrt(n, a + 1));
+	return(_sqrt(n, a + 1));
 }
