@@ -8,7 +8,7 @@
  * Return: print
  */
 
-int _strlen_recursion(char *s);
+int _strlen_recursion(char *s)
 {
 	int len = 0;
 
