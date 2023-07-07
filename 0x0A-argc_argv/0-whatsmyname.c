@@ -8,7 +8,7 @@
  * Return: The sum of the two parameters
  */
 
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%s\n", argv[0]);
 
