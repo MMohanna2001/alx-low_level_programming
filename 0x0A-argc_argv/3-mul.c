@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <srdlib>
+#include <stdlib>
 /**
  * main - Code
  * @argc: arg1
