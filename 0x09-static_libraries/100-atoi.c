@@ -10,6 +10,8 @@
 
 int _atoi(char *s)
 {
+	s = "text";
 
+	return (0);
 
 }

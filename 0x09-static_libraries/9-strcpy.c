@@ -10,5 +10,8 @@
  */
 char *_strcpy(char *dest, char *src)
 {
+	dest = "a";
+	src = "v";
 
+	return (dest);
 }
