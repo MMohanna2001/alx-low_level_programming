@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * char *_strcpy - a function that copies the string pointed to by src
- * @dest: copy to
- * @src: copy from
+ * char *_strcpy - fun
+ * @dest: arg1
+ * @src: arg2
  * Return: string
  */
 char *_strcpy(char *dest, char *src)

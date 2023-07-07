@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
- * _atoi - convert a string into an integer.
+ * _atoi - fun
  *
- * @s: the string to use.
+ * @s: arg1
  *
  * Return: integer.
  */
 
 int _atoi(char *s)
 {
+
 }
