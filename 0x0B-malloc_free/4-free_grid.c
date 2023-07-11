@@ -4,6 +4,7 @@
 #include <string.h>
 /**
  * free_grid - Code
+ * @grid: arg1
  * @height: arg2
  * Return: re
  *
