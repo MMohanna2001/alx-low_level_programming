@@ -12,11 +12,11 @@
 char *_strdup(char *str)
 {
 
-	char *dup = strdup(str);
+	char *dup;
 
 	if (str == NULL)
 		return ('\0');
-
+	dup = strdup(str);
 
 	if (dup == NULL)
 		return ('\0');
