@@ -11,15 +11,14 @@
 char *_strdup(char *str)
 {
 
-	char *dup;
+	char *dup = strdup(str);
 
 	if (str == NULL)
 		return ('\0');
-	
-	dup = strdup(str);
+
 
 	if (dup == NULL)
 		return ('\0');
 
-	return ('\0');
+	return (dup);
 }
